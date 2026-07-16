@@ -1,0 +1,8 @@
+2026-07-14 12:51:26.236 +05:30 [INF] User profile is available. Using 'C:\Users\HP\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-07-14 12:51:28.878 +05:30 [INF] Now listening on: https://localhost:7190
+2026-07-14 12:51:28.890 +05:30 [INF] Now listening on: http://localhost:5143
+2026-07-14 12:51:29.228 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2026-07-14 12:51:29.232 +05:30 [INF] Hosting environment: Development
+2026-07-14 12:51:29.235 +05:30 [INF] Content root path: C:\Users\HP\Desktop\Dot Net\ProductApi\API
+2026-07-14 12:51:42.088 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7190/swagger/index.html - null null
+2026-07-14 12:51:45.591 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7190/swagger/index.html - 200 null text/html;charset=utf-8 3521.5249ms

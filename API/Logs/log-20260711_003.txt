@@ -1,0 +1,79 @@
+2026-07-11 22:52:21.483 +05:30 [INF] User profile is available. Using 'C:\Users\HP\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-07-11 22:52:21.872 +05:30 [WRN] The ASP.NET Core developer certificate is not trusted. For information about trusting the ASP.NET Core developer certificate, see https://aka.ms/aspnet/https-trust-dev-cert.
+2026-07-11 22:52:21.952 +05:30 [INF] Now listening on: https://localhost:7190
+2026-07-11 22:52:21.966 +05:30 [INF] Now listening on: http://localhost:5143
+2026-07-11 22:52:22.175 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2026-07-11 22:52:22.179 +05:30 [INF] Hosting environment: Development
+2026-07-11 22:52:22.181 +05:30 [INF] Content root path: C:\Users\HP\Desktop\Dot Net\ProductApi\API
+2026-07-11 22:52:24.729 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7190/swagger - null null
+2026-07-11 22:52:25.089 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7190/swagger - 301 0 null 366.0722ms
+2026-07-11 22:52:25.124 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7190/swagger/index.html - null null
+2026-07-11 22:52:25.292 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7190/swagger/index.html - 200 null text/html;charset=utf-8 167.2621ms
+2026-07-11 22:52:25.540 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7190/swagger/swagger-ui.css - null null
+2026-07-11 22:52:25.541 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7190/swagger/swagger-ui-bundle.js - null null
+2026-07-11 22:52:25.541 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7190/swagger/swagger-ui-standalone-preset.js - null null
+2026-07-11 22:52:25.541 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7190/_framework/aspnetcore-browser-refresh.js - null null
+2026-07-11 22:52:25.541 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7190/_vs/browserLink - null null
+2026-07-11 22:52:25.625 +05:30 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2026-07-11 22:52:25.625 +05:30 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2026-07-11 22:52:25.631 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7190/_framework/aspnetcore-browser-refresh.js - 200 16491 application/javascript; charset=utf-8 89.2872ms
+2026-07-11 22:52:25.649 +05:30 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2026-07-11 22:52:25.667 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7190/swagger/swagger-ui.css - 200 152034 text/css 126.4462ms
+2026-07-11 22:52:25.731 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7190/swagger/swagger-ui-standalone-preset.js - 200 230280 text/javascript 189.9589ms
+2026-07-11 22:52:25.753 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7190/_vs/browserLink - 200 null text/javascript; charset=UTF-8 211.4912ms
+2026-07-11 22:52:25.813 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7190/swagger/swagger-ui-bundle.js - 200 1456926 text/javascript 272.5408ms
+2026-07-11 22:52:26.173 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7190/swagger/v1/swagger.json - null null
+2026-07-11 22:52:26.201 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7190/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 28.699ms
+2026-07-11 22:53:08.108 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7190/api/Auth/login - application/json 51
+2026-07-11 22:53:08.713 +05:30 [INF] Executing endpoint 'API.Controllers.AuthController.Login (API)'
+2026-07-11 22:53:08.849 +05:30 [INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login(Application.DTOs.LoginDto) on controller API.Controllers.AuthController (API).
+2026-07-11 22:53:09.084 +05:30 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`3[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2026-07-11 22:53:09.109 +05:30 [INF] Executed action API.Controllers.AuthController.Login (API) in 245.7797ms
+2026-07-11 22:53:09.114 +05:30 [INF] Executed endpoint 'API.Controllers.AuthController.Login (API)'
+2026-07-11 22:53:09.120 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7190/api/Auth/login - 200 null application/json; charset=utf-8 1014.5597ms
+2026-07-11 22:54:28.208 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7190/api/Products - application/json 29
+2026-07-11 22:54:28.276 +05:30 [INF] Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenMalformedException: IDX14100: JWT is not well formed, there are no dots (.).
+The token needs to be in JWS or JWE Compact Serialization Format. (JWS): 'EncodedHeader.EndcodedPayload.EncodedSignature'. (JWE): 'EncodedProtectedHeader.EncodedEncryptedKey.EncodedInitializationVector.EncodedCiphertext.EncodedAuthenticationTag'.
+ ---> System.ArgumentException: IDX14102: Unable to decode the header '[PII of type 'Microsoft.IdentityModel.Logging.SecurityArtifact' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]' as Base64Url encoded string.
+ ---> System.ArgumentOutOfRangeException: Specified argument was out of the range of valid values. (Parameter 'IDX10820: Invalid character found in Base64UrlEncoding. Character: '32', Encoding: '[PII of type 'System.String' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.')
+   at Microsoft.IdentityModel.Tokens.Base64UrlEncoding.Decode(String input, Int32 offset, Int32 length, Byte[] output)
+   at Microsoft.IdentityModel.Tokens.Base64UrlEncoding.Decode[T](String input, Int32 offset, Int32 length, Func`3 action)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebToken.CreateClaimSet(String rawString, Int32 startIndex, Int32 length, Func`3 action)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebToken.ReadToken(String encodedJson)
+   --- End of inner exception stack trace ---
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebToken.ReadToken(String encodedJson)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebToken..ctor(String jwtEncodedString)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ReadToken(String token, TokenValidationParameters validationParameters)
+   --- End of inner exception stack trace ---
+2026-07-11 22:54:28.337 +05:30 [INF] Bearer was not authenticated. Failure message: IDX14100: JWT is not well formed, there are no dots (.).
+The token needs to be in JWS or JWE Compact Serialization Format. (JWS): 'EncodedHeader.EndcodedPayload.EncodedSignature'. (JWE): 'EncodedProtectedHeader.EncodedEncryptedKey.EncodedInitializationVector.EncodedCiphertext.EncodedAuthenticationTag'.
+2026-07-11 22:54:28.361 +05:30 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (Admin)
+2026-07-11 22:54:28.382 +05:30 [INF] AuthenticationScheme: Bearer was challenged.
+2026-07-11 22:54:28.386 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7190/api/Products - 401 0 null 179.3281ms
+2026-07-11 22:56:16.985 +05:30 [INF] User profile is available. Using 'C:\Users\HP\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-07-11 22:56:17.151 +05:30 [WRN] The ASP.NET Core developer certificate is not trusted. For information about trusting the ASP.NET Core developer certificate, see https://aka.ms/aspnet/https-trust-dev-cert.
+2026-07-11 22:56:17.197 +05:30 [INF] Now listening on: https://localhost:7190
+2026-07-11 22:56:17.200 +05:30 [INF] Now listening on: http://localhost:5143
+2026-07-11 22:56:17.304 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2026-07-11 22:56:17.307 +05:30 [INF] Hosting environment: Development
+2026-07-11 22:56:17.309 +05:30 [INF] Content root path: C:\Users\HP\Desktop\Dot Net\ProductApi\API
+2026-07-11 22:56:17.775 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7190/swagger/index.html - null null
+2026-07-11 22:56:18.033 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7190/swagger/index.html - 200 null text/html;charset=utf-8 260.5152ms
+2026-07-11 22:56:18.341 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7190/_vs/browserLink - null null
+2026-07-11 22:56:18.347 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7190/_framework/aspnetcore-browser-refresh.js - null null
+2026-07-11 22:56:18.371 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7190/_framework/aspnetcore-browser-refresh.js - 200 16491 application/javascript; charset=utf-8 23.7076ms
+2026-07-11 22:56:18.537 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7190/_vs/browserLink - 200 null text/javascript; charset=UTF-8 195.3816ms
+2026-07-11 22:56:19.217 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7190/swagger/v1/swagger.json - null null
+2026-07-11 22:56:19.241 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7190/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 23.9249ms
+2026-07-11 22:56:19.576 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7190/swagger/favicon-32x32.png - null null
+2026-07-11 22:56:19.605 +05:30 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2026-07-11 22:56:19.609 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7190/swagger/favicon-32x32.png - 200 628 image/png 32.5535ms
+2026-07-11 22:56:56.940 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7190/api/Products - application/json 29
+2026-07-11 22:56:57.198 +05:30 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (Admin)
+2026-07-11 22:56:57.211 +05:30 [INF] AuthenticationScheme: Bearer was challenged.
+2026-07-11 22:56:57.217 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7190/api/Products - 401 0 null 286.0224ms

@@ -1,0 +1,153 @@
+2026-07-13 23:20:44.669 +05:30 [INF] User profile is available. Using 'C:\Users\HP\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-07-13 23:20:46.164 +05:30 [INF] Now listening on: https://localhost:7190
+2026-07-13 23:20:46.170 +05:30 [INF] Now listening on: http://localhost:5143
+2026-07-13 23:20:46.588 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2026-07-13 23:20:46.619 +05:30 [INF] Hosting environment: Development
+2026-07-13 23:20:46.626 +05:30 [INF] Content root path: C:\Users\HP\Desktop\Dot Net\ProductApi\API
+2026-07-13 23:21:02.255 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7190/swagger - null null
+2026-07-13 23:21:05.079 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7190/swagger - 301 0 null 2963.4894ms
+2026-07-13 23:21:05.335 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7190/swagger/index.html - null null
+2026-07-13 23:21:05.657 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7190/swagger/index.html - 200 null text/html;charset=utf-8 323.9817ms
+2026-07-13 23:21:06.337 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7190/swagger/swagger-ui.css - null null
+2026-07-13 23:21:06.357 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7190/_framework/aspnetcore-browser-refresh.js - null null
+2026-07-13 23:21:06.351 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7190/swagger/swagger-ui-bundle.js - null null
+2026-07-13 23:21:06.351 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7190/swagger/swagger-ui-standalone-preset.js - null null
+2026-07-13 23:21:06.466 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7190/_framework/aspnetcore-browser-refresh.js - 200 16491 application/javascript; charset=utf-8 108.9569ms
+2026-07-13 23:21:06.575 +05:30 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2026-07-13 23:21:06.575 +05:30 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2026-07-13 23:21:06.587 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7190/swagger/swagger-ui-standalone-preset.js - 200 230280 text/javascript 236.4358ms
+2026-07-13 23:21:06.593 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7190/swagger/swagger-ui.css - 200 152034 text/css 256.3049ms
+2026-07-13 23:21:06.636 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7190/_vs/browserLink - null null
+2026-07-13 23:21:06.758 +05:30 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2026-07-13 23:21:06.785 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7190/swagger/swagger-ui-bundle.js - 200 1456926 text/javascript 434.6935ms
+2026-07-13 23:21:07.447 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7190/_vs/browserLink - 200 null text/javascript; charset=UTF-8 811.6298ms
+2026-07-13 23:21:07.857 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7190/swagger/v1/swagger.json - null null
+2026-07-13 23:21:08.001 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7190/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 144.2546ms
+2026-07-13 23:21:34.194 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7190/api/Auth/login - application/json 51
+2026-07-13 23:21:34.623 +05:30 [INF] CORS policy execution successful.
+2026-07-13 23:21:34.919 +05:30 [INF] Executing endpoint 'API.Controllers.AuthController.Login (API)'
+2026-07-13 23:21:35.154 +05:30 [INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login(Application.DTOs.LoginDto) on controller API.Controllers.AuthController (API).
+2026-07-13 23:21:35.726 +05:30 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`3[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2026-07-13 23:21:35.866 +05:30 [INF] Executed action API.Controllers.AuthController.Login (API) in 696.7578ms
+2026-07-13 23:21:35.882 +05:30 [INF] Executed endpoint 'API.Controllers.AuthController.Login (API)'
+2026-07-13 23:21:35.895 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7190/api/Auth/login - 200 null application/json; charset=utf-8 1738.814ms
+2026-07-13 23:22:35.294 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7190/api/v1/Products?pageNumber=1&pageSize=5 - null null
+2026-07-13 23:22:35.866 +05:30 [INF] Executing endpoint 'API.Controllers.ProductsController.GetAll (API)'
+2026-07-13 23:22:36.002 +05:30 [INF] Route matched with {action = "GetAll", controller = "Products"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAll(Int32, Int32) on controller API.Controllers.ProductsController (API).
+2026-07-13 23:22:36.998 +05:30 [INF] Fetching products. PageNumber: 1, PageSize: 5
+2026-07-13 23:23:01.331 +05:30 [ERR] An error occurred using the connection to database 'ProductDb' on server 'host.docker.internal,1433'.
+2026-07-13 23:23:01.768 +05:30 [ERR] An exception occurred while iterating over the results of a query for context type 'Infrastructure.Data.ApplicationDbContext'.
+System.InvalidOperationException: An exception has been raised that is likely due to a transient failure. Consider enabling transient error resiliency by adding 'EnableRetryOnFailure' to the 'UseSqlServer' call.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: TCP Provider, error: 0 - A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.)
+ ---> System.ComponentModel.Win32Exception (10060): A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.Connect(ServerInfo serverInfo, SqlInternalConnectionTds connHandler, Boolean ignoreSniOpenTimeout, Int64 timerExpire, SqlConnectionString connectionOptions, Boolean withFailover)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.AttemptOneLogin(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean ignoreSniOpenTimeout, TimeoutTimer timeout, Boolean withFailover)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString connectionOptions, SqlCredential credential, TimeoutTimer timeout)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(TimeoutTimer timeout, SqlConnectionString connectionOptions, SqlCredential credential, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, Boolean applyTransientFaultHandling, String accessToken, DbConnectionPool pool)
+   at Microsoft.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.WaitForPendingOpen()
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenAsync(CancellationToken cancellationToken, Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+ClientConnectionId:00000000-0000-0000-0000-000000000000
+Error Number:10060,State:0,Class:20
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+System.InvalidOperationException: An exception has been raised that is likely due to a transient failure. Consider enabling transient error resiliency by adding 'EnableRetryOnFailure' to the 'UseSqlServer' call.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: TCP Provider, error: 0 - A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.)
+ ---> System.ComponentModel.Win32Exception (10060): A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.Connect(ServerInfo serverInfo, SqlInternalConnectionTds connHandler, Boolean ignoreSniOpenTimeout, Int64 timerExpire, SqlConnectionString connectionOptions, Boolean withFailover)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.AttemptOneLogin(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean ignoreSniOpenTimeout, TimeoutTimer timeout, Boolean withFailover)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString connectionOptions, SqlCredential credential, TimeoutTimer timeout)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(TimeoutTimer timeout, SqlConnectionString connectionOptions, SqlCredential credential, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, Boolean applyTransientFaultHandling, String accessToken, DbConnectionPool pool)
+   at Microsoft.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.WaitForPendingOpen()
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenAsync(CancellationToken cancellationToken, Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+ClientConnectionId:00000000-0000-0000-0000-000000000000
+Error Number:10060,State:0,Class:20
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+2026-07-13 23:23:02.765 +05:30 [INF] Executed action API.Controllers.ProductsController.GetAll (API) in 26753.2916ms
+2026-07-13 23:23:02.788 +05:30 [INF] Executed endpoint 'API.Controllers.ProductsController.GetAll (API)'
+2026-07-13 23:23:03.159 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7190/api/v1/Products?pageNumber=1&pageSize=5 - 500 null application/json 27882.0087ms
+2026-07-13 23:29:34.420 +05:30 [INF] User profile is available. Using 'C:\Users\HP\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-07-13 23:29:34.932 +05:30 [INF] Now listening on: https://localhost:7190
+2026-07-13 23:29:34.942 +05:30 [INF] Now listening on: http://localhost:5143
+2026-07-13 23:29:35.204 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2026-07-13 23:29:35.207 +05:30 [INF] Hosting environment: Development
+2026-07-13 23:29:35.211 +05:30 [INF] Content root path: C:\Users\HP\Desktop\Dot Net\ProductApi\API
+2026-07-13 23:29:36.886 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7190/swagger/index.html - null null
+2026-07-13 23:29:37.526 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7190/swagger/index.html - 200 null text/html;charset=utf-8 646.4788ms
+2026-07-13 23:29:37.908 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7190/_framework/aspnetcore-browser-refresh.js - null null
+2026-07-13 23:29:37.922 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7190/_vs/browserLink - null null
+2026-07-13 23:29:37.959 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7190/_framework/aspnetcore-browser-refresh.js - 200 16491 application/javascript; charset=utf-8 50.4792ms
+2026-07-13 23:29:38.091 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7190/_vs/browserLink - 200 null text/javascript; charset=UTF-8 169.8215ms
+2026-07-13 23:29:38.396 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7190/swagger/v1/swagger.json - null null
+2026-07-13 23:29:38.440 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7190/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 43.4707ms
+2026-07-13 23:30:12.327 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7190/api/Auth/login - application/json 51
+2026-07-13 23:30:12.580 +05:30 [INF] CORS policy execution successful.
+2026-07-13 23:30:12.912 +05:30 [INF] Executing endpoint 'API.Controllers.AuthController.Login (API)'
+2026-07-13 23:30:13.018 +05:30 [INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login(Application.DTOs.LoginDto) on controller API.Controllers.AuthController (API).
+2026-07-13 23:30:13.224 +05:30 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`3[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2026-07-13 23:30:13.259 +05:30 [INF] Executed action API.Controllers.AuthController.Login (API) in 229.2717ms
+2026-07-13 23:30:13.264 +05:30 [INF] Executed endpoint 'API.Controllers.AuthController.Login (API)'
+2026-07-13 23:30:13.269 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7190/api/Auth/login - 200 null application/json; charset=utf-8 951.155ms
+2026-07-13 23:30:41.871 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7190/api/v1/Products?pageNumber=1&pageSize=5 - null null
+2026-07-13 23:30:42.034 +05:30 [INF] Executing endpoint 'API.Controllers.ProductsController.GetAll (API)'
+2026-07-13 23:30:42.082 +05:30 [INF] Route matched with {action = "GetAll", controller = "Products"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAll(Int32, Int32) on controller API.Controllers.ProductsController (API).
+2026-07-13 23:30:42.648 +05:30 [INF] Fetching products. PageNumber: 1, PageSize: 5
+2026-07-13 23:30:45.178 +05:30 [INF] Executed DbCommand (122ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[CreatedBy], [p].[CreatedOn], [p].[ModifiedBy], [p].[ModifiedOn], [p].[ProductName]
+FROM [Products] AS [p]
+2026-07-13 23:30:45.269 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Application.DTOs.ProductDto, Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-07-13 23:30:45.309 +05:30 [INF] Executed action API.Controllers.ProductsController.GetAll (API) in 3219.2719ms
+2026-07-13 23:30:45.314 +05:30 [INF] Executed endpoint 'API.Controllers.ProductsController.GetAll (API)'
+2026-07-13 23:30:45.332 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7190/api/v1/Products?pageNumber=1&pageSize=5 - 200 null application/json; charset=utf-8 3462.8515ms
+2026-07-13 23:31:51.919 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7190/api/v1/Products/7 - null null
+2026-07-13 23:31:52.050 +05:30 [INF] Executing endpoint 'API.Controllers.ProductsController.GetById (API)'
+2026-07-13 23:31:52.104 +05:30 [INF] Route matched with {action = "GetById", controller = "Products"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetById(Int32) on controller API.Controllers.ProductsController (API).
+2026-07-13 23:31:52.768 +05:30 [INF] Executed DbCommand (191ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [p].[Id], [p].[CreatedBy], [p].[CreatedOn], [p].[ModifiedBy], [p].[ModifiedOn], [p].[ProductName]
+FROM [Products] AS [p]
+WHERE [p].[Id] = @__p_0
+2026-07-13 23:31:52.800 +05:30 [INF] Executing ObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ProblemDetails'.
+2026-07-13 23:31:52.879 +05:30 [INF] Executed action API.Controllers.ProductsController.GetById (API) in 767.0063ms
+2026-07-13 23:31:52.884 +05:30 [INF] Executed endpoint 'API.Controllers.ProductsController.GetById (API)'
+2026-07-13 23:31:52.888 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7190/api/v1/Products/7 - 404 null application/problem+json; charset=utf-8 972.7522ms
+2026-07-13 23:32:00.165 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7190/api/v1/Products/10 - null null
+2026-07-13 23:32:00.180 +05:30 [INF] Executing endpoint 'API.Controllers.ProductsController.GetById (API)'
+2026-07-13 23:32:00.192 +05:30 [INF] Route matched with {action = "GetById", controller = "Products"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetById(Int32) on controller API.Controllers.ProductsController (API).
+2026-07-13 23:32:00.348 +05:30 [INF] Executed DbCommand (6ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [p].[Id], [p].[CreatedBy], [p].[CreatedOn], [p].[ModifiedBy], [p].[ModifiedOn], [p].[ProductName]
+FROM [Products] AS [p]
+WHERE [p].[Id] = @__p_0
+2026-07-13 23:32:00.469 +05:30 [INF] Executing OkObjectResult, writing value of type 'Application.DTOs.ProductDto'.
+2026-07-13 23:32:00.476 +05:30 [INF] Executed action API.Controllers.ProductsController.GetById (API) in 276.9572ms
+2026-07-13 23:32:00.479 +05:30 [INF] Executed endpoint 'API.Controllers.ProductsController.GetById (API)'
+2026-07-13 23:32:00.481 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7190/api/v1/Products/10 - 200 null application/json; charset=utf-8 316.2464ms

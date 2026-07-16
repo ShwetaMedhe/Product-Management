@@ -1,0 +1,287 @@
+2026-07-12 15:20:43.363 +05:30 [INF] User profile is available. Using 'C:\Users\HP\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-07-12 15:20:43.870 +05:30 [WRN] The ASP.NET Core developer certificate is not trusted. For information about trusting the ASP.NET Core developer certificate, see https://aka.ms/aspnet/https-trust-dev-cert.
+2026-07-12 15:20:43.921 +05:30 [INF] Now listening on: https://localhost:7190
+2026-07-12 15:20:43.924 +05:30 [INF] Now listening on: http://localhost:5143
+2026-07-12 15:20:44.057 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2026-07-12 15:20:44.061 +05:30 [INF] Hosting environment: Development
+2026-07-12 15:20:44.063 +05:30 [INF] Content root path: C:\Users\HP\Desktop\Dot Net\ProductApi\API
+2026-07-12 15:20:47.275 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7190/swagger - null null
+2026-07-12 15:20:47.833 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7190/swagger - 301 0 null 562.2514ms
+2026-07-12 15:20:47.878 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7190/swagger/index.html - null null
+2026-07-12 15:20:48.063 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7190/swagger/index.html - 200 null text/html;charset=utf-8 185.0129ms
+2026-07-12 15:20:48.181 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7190/swagger/swagger-ui.css - null null
+2026-07-12 15:20:48.187 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7190/swagger/swagger-ui-standalone-preset.js - null null
+2026-07-12 15:20:48.187 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7190/swagger/swagger-ui-bundle.js - null null
+2026-07-12 15:20:48.187 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7190/_framework/aspnetcore-browser-refresh.js - null null
+2026-07-12 15:20:48.188 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7190/_vs/browserLink - null null
+2026-07-12 15:20:48.217 +05:30 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2026-07-12 15:20:48.217 +05:30 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2026-07-12 15:20:48.235 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7190/_framework/aspnetcore-browser-refresh.js - 200 16491 application/javascript; charset=utf-8 47.7738ms
+2026-07-12 15:20:48.249 +05:30 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2026-07-12 15:20:48.263 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7190/swagger/swagger-ui.css - 200 152034 text/css 81.6746ms
+2026-07-12 15:20:48.283 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7190/swagger/swagger-ui-standalone-preset.js - 200 230280 text/javascript 94.9499ms
+2026-07-12 15:20:48.311 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7190/swagger/swagger-ui-bundle.js - 200 1456926 text/javascript 123.7737ms
+2026-07-12 15:20:48.516 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7190/_vs/browserLink - 200 null text/javascript; charset=UTF-8 327.8442ms
+2026-07-12 15:20:48.643 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7190/swagger/v1/swagger.json - null null
+2026-07-12 15:20:48.663 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7190/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 20.5998ms
+2026-07-12 15:21:32.069 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7190/api/Auth/login - application/json 51
+2026-07-12 15:21:32.182 +05:30 [INF] Executing endpoint 'API.Controllers.AuthController.Login (API)'
+2026-07-12 15:21:32.238 +05:30 [INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login(Application.DTOs.LoginDto) on controller API.Controllers.AuthController (API).
+2026-07-12 15:21:32.359 +05:30 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`3[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2026-07-12 15:21:32.371 +05:30 [INF] Executed action API.Controllers.AuthController.Login (API) in 127.7155ms
+2026-07-12 15:21:32.373 +05:30 [INF] Executed endpoint 'API.Controllers.AuthController.Login (API)'
+2026-07-12 15:21:32.375 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7190/api/Auth/login - 200 null application/json; charset=utf-8 311.7818ms
+2026-07-12 15:22:25.308 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7190/api/Products - application/json 29
+2026-07-12 15:22:25.344 +05:30 [INF] Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenMalformedException: IDX14100: JWT is not well formed, there are no dots (.).
+The token needs to be in JWS or JWE Compact Serialization Format. (JWS): 'EncodedHeader.EndcodedPayload.EncodedSignature'. (JWE): 'EncodedProtectedHeader.EncodedEncryptedKey.EncodedInitializationVector.EncodedCiphertext.EncodedAuthenticationTag'.
+ ---> System.ArgumentException: IDX14102: Unable to decode the header '[PII of type 'Microsoft.IdentityModel.Logging.SecurityArtifact' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]' as Base64Url encoded string.
+ ---> System.ArgumentOutOfRangeException: Specified argument was out of the range of valid values. (Parameter 'IDX10820: Invalid character found in Base64UrlEncoding. Character: '32', Encoding: '[PII of type 'System.String' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.')
+   at Microsoft.IdentityModel.Tokens.Base64UrlEncoding.Decode(String input, Int32 offset, Int32 length, Byte[] output)
+   at Microsoft.IdentityModel.Tokens.Base64UrlEncoding.Decode[T](String input, Int32 offset, Int32 length, Func`3 action)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebToken.CreateClaimSet(String rawString, Int32 startIndex, Int32 length, Func`3 action)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebToken.ReadToken(String encodedJson)
+   --- End of inner exception stack trace ---
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebToken.ReadToken(String encodedJson)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebToken..ctor(String jwtEncodedString)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ReadToken(String token, TokenValidationParameters validationParameters)
+   --- End of inner exception stack trace ---
+2026-07-12 15:22:25.375 +05:30 [INF] Bearer was not authenticated. Failure message: IDX14100: JWT is not well formed, there are no dots (.).
+The token needs to be in JWS or JWE Compact Serialization Format. (JWS): 'EncodedHeader.EndcodedPayload.EncodedSignature'. (JWE): 'EncodedProtectedHeader.EncodedEncryptedKey.EncodedInitializationVector.EncodedCiphertext.EncodedAuthenticationTag'.
+2026-07-12 15:22:25.383 +05:30 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2026-07-12 15:22:25.390 +05:30 [INF] AuthenticationScheme: Bearer was challenged.
+2026-07-12 15:22:25.392 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7190/api/Products - 401 0 null 83.9071ms
+2026-07-12 15:27:50.426 +05:30 [INF] User profile is available. Using 'C:\Users\HP\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-07-12 15:27:50.646 +05:30 [WRN] The ASP.NET Core developer certificate is not trusted. For information about trusting the ASP.NET Core developer certificate, see https://aka.ms/aspnet/https-trust-dev-cert.
+2026-07-12 15:27:50.715 +05:30 [INF] Now listening on: https://localhost:7190
+2026-07-12 15:27:50.716 +05:30 [INF] Now listening on: http://localhost:5143
+2026-07-12 15:27:50.862 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2026-07-12 15:27:50.864 +05:30 [INF] Hosting environment: Development
+2026-07-12 15:27:50.865 +05:30 [INF] Content root path: C:\Users\HP\Desktop\Dot Net\ProductApi\API
+2026-07-12 15:27:53.473 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7190/swagger - null null
+2026-07-12 15:27:53.907 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7190/swagger - 301 0 null 435.9649ms
+2026-07-12 15:27:53.935 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7190/swagger/index.html - null null
+2026-07-12 15:27:54.039 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7190/swagger/index.html - 200 null text/html;charset=utf-8 103.465ms
+2026-07-12 15:27:54.193 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7190/swagger/swagger-ui.css - null null
+2026-07-12 15:27:54.193 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7190/swagger/swagger-ui-bundle.js - null null
+2026-07-12 15:27:54.193 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7190/swagger/swagger-ui-standalone-preset.js - null null
+2026-07-12 15:27:54.194 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7190/_framework/aspnetcore-browser-refresh.js - null null
+2026-07-12 15:27:54.194 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7190/_vs/browserLink - null null
+2026-07-12 15:27:54.232 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7190/_framework/aspnetcore-browser-refresh.js - 200 16491 application/javascript; charset=utf-8 38.5057ms
+2026-07-12 15:27:54.249 +05:30 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2026-07-12 15:27:54.249 +05:30 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2026-07-12 15:27:54.255 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7190/swagger/swagger-ui.css - 200 152034 text/css 61.7548ms
+2026-07-12 15:27:54.280 +05:30 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2026-07-12 15:27:54.282 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7190/swagger/swagger-ui-standalone-preset.js - 200 230280 text/javascript 88.0005ms
+2026-07-12 15:27:54.303 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7190/swagger/swagger-ui-bundle.js - 200 1456926 text/javascript 109.3718ms
+2026-07-12 15:27:54.351 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7190/_vs/browserLink - 200 null text/javascript; charset=UTF-8 157.361ms
+2026-07-12 15:27:54.797 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7190/swagger/v1/swagger.json - null null
+2026-07-12 15:27:54.846 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7190/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 48.3136ms
+2026-07-12 15:28:41.124 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7190/api/Auth/login - application/json 51
+2026-07-12 15:28:41.438 +05:30 [INF] Executing endpoint 'API.Controllers.AuthController.Login (API)'
+2026-07-12 15:28:41.510 +05:30 [INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login(Application.DTOs.LoginDto) on controller API.Controllers.AuthController (API).
+2026-07-12 15:28:41.647 +05:30 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`3[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2026-07-12 15:28:41.659 +05:30 [INF] Executed action API.Controllers.AuthController.Login (API) in 143.2729ms
+2026-07-12 15:28:41.662 +05:30 [INF] Executed endpoint 'API.Controllers.AuthController.Login (API)'
+2026-07-12 15:28:41.664 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7190/api/Auth/login - 200 null application/json; charset=utf-8 544.1065ms
+2026-07-12 15:29:57.367 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7190/api/Products - null null
+2026-07-12 15:29:57.429 +05:30 [INF] Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenMalformedException: IDX14100: JWT is not well formed, there are no dots (.).
+The token needs to be in JWS or JWE Compact Serialization Format. (JWS): 'EncodedHeader.EndcodedPayload.EncodedSignature'. (JWE): 'EncodedProtectedHeader.EncodedEncryptedKey.EncodedInitializationVector.EncodedCiphertext.EncodedAuthenticationTag'.
+ ---> System.ArgumentException: IDX14102: Unable to decode the header '[PII of type 'Microsoft.IdentityModel.Logging.SecurityArtifact' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]' as Base64Url encoded string.
+ ---> System.ArgumentOutOfRangeException: Specified argument was out of the range of valid values. (Parameter 'IDX10820: Invalid character found in Base64UrlEncoding. Character: '32', Encoding: '[PII of type 'System.String' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.')
+   at Microsoft.IdentityModel.Tokens.Base64UrlEncoding.Decode(String input, Int32 offset, Int32 length, Byte[] output)
+   at Microsoft.IdentityModel.Tokens.Base64UrlEncoding.Decode[T](String input, Int32 offset, Int32 length, Func`3 action)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebToken.CreateClaimSet(String rawString, Int32 startIndex, Int32 length, Func`3 action)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebToken.ReadToken(String encodedJson)
+   --- End of inner exception stack trace ---
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebToken.ReadToken(String encodedJson)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebToken..ctor(String jwtEncodedString)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ReadToken(String token, TokenValidationParameters validationParameters)
+   --- End of inner exception stack trace ---
+2026-07-12 15:29:57.470 +05:30 [INF] Bearer was not authenticated. Failure message: IDX14100: JWT is not well formed, there are no dots (.).
+The token needs to be in JWS or JWE Compact Serialization Format. (JWS): 'EncodedHeader.EndcodedPayload.EncodedSignature'. (JWE): 'EncodedProtectedHeader.EncodedEncryptedKey.EncodedInitializationVector.EncodedCiphertext.EncodedAuthenticationTag'.
+2026-07-12 15:29:57.481 +05:30 [INF] Executing endpoint 'API.Controllers.ProductsController.GetAll (API)'
+2026-07-12 15:29:57.499 +05:30 [INF] Route matched with {action = "GetAll", controller = "Products"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAll() on controller API.Controllers.ProductsController (API).
+2026-07-12 15:29:57.784 +05:30 [INF] Fetching all products.
+2026-07-12 15:29:59.030 +05:30 [INF] Executed DbCommand (61ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[CreatedBy], [p].[CreatedOn], [p].[ModifiedBy], [p].[ModifiedOn], [p].[ProductName]
+FROM [Products] AS [p]
+2026-07-12 15:29:59.077 +05:30 [INF] Returned 1 products.
+2026-07-12 15:29:59.081 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Application.DTOs.ProductDto, Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-07-12 15:29:59.098 +05:30 [INF] Executed action API.Controllers.ProductsController.GetAll (API) in 1596.82ms
+2026-07-12 15:29:59.100 +05:30 [INF] Executed endpoint 'API.Controllers.ProductsController.GetAll (API)'
+2026-07-12 15:29:59.110 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7190/api/Products - 200 null application/json; charset=utf-8 1744.3798ms
+2026-07-12 15:30:31.534 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7190/api/Products - application/json 28
+2026-07-12 15:30:31.546 +05:30 [INF] Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenMalformedException: IDX14100: JWT is not well formed, there are no dots (.).
+The token needs to be in JWS or JWE Compact Serialization Format. (JWS): 'EncodedHeader.EndcodedPayload.EncodedSignature'. (JWE): 'EncodedProtectedHeader.EncodedEncryptedKey.EncodedInitializationVector.EncodedCiphertext.EncodedAuthenticationTag'.
+ ---> System.ArgumentException: IDX14102: Unable to decode the header '[PII of type 'Microsoft.IdentityModel.Logging.SecurityArtifact' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]' as Base64Url encoded string.
+ ---> System.ArgumentOutOfRangeException: Specified argument was out of the range of valid values. (Parameter 'IDX10820: Invalid character found in Base64UrlEncoding. Character: '32', Encoding: '[PII of type 'System.String' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.')
+   at Microsoft.IdentityModel.Tokens.Base64UrlEncoding.Decode(String input, Int32 offset, Int32 length, Byte[] output)
+   at Microsoft.IdentityModel.Tokens.Base64UrlEncoding.Decode[T](String input, Int32 offset, Int32 length, Func`3 action)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebToken.CreateClaimSet(String rawString, Int32 startIndex, Int32 length, Func`3 action)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebToken.ReadToken(String encodedJson)
+   --- End of inner exception stack trace ---
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebToken.ReadToken(String encodedJson)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebToken..ctor(String jwtEncodedString)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ReadToken(String token, TokenValidationParameters validationParameters)
+   --- End of inner exception stack trace ---
+2026-07-12 15:30:31.549 +05:30 [INF] Bearer was not authenticated. Failure message: IDX14100: JWT is not well formed, there are no dots (.).
+The token needs to be in JWS or JWE Compact Serialization Format. (JWS): 'EncodedHeader.EndcodedPayload.EncodedSignature'. (JWE): 'EncodedProtectedHeader.EncodedEncryptedKey.EncodedInitializationVector.EncodedCiphertext.EncodedAuthenticationTag'.
+2026-07-12 15:30:31.554 +05:30 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2026-07-12 15:30:31.563 +05:30 [INF] AuthenticationScheme: Bearer was challenged.
+2026-07-12 15:30:31.564 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7190/api/Products - 401 0 null 30.4131ms
+2026-07-12 15:34:43.360 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7190/api/Products - application/json 28
+2026-07-12 15:34:43.632 +05:30 [INF] Executing endpoint 'API.Controllers.ProductsController.Create (API)'
+2026-07-12 15:34:43.686 +05:30 [INF] Route matched with {action = "Create", controller = "Products"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Create(Application.DTOs.CreateProductDto) on controller API.Controllers.ProductsController (API).
+2026-07-12 15:34:43.790 +05:30 [INF] Creating new product.
+2026-07-12 15:34:44.326 +05:30 [INF] Executed DbCommand (175ms) [Parameters=[@p0='?' (Size = 4000), @p1='?' (DbType = DateTime2), @p2='?' (Size = 4000), @p3='?' (DbType = DateTime2), @p4='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Products] ([CreatedBy], [CreatedOn], [ModifiedBy], [ModifiedOn], [ProductName])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1, @p2, @p3, @p4);
+2026-07-12 15:34:44.373 +05:30 [INF] Product created successfully. Id=2
+2026-07-12 15:34:44.382 +05:30 [INF] Executing CreatedAtActionResult, writing value of type 'Application.DTOs.ProductDto'.
+2026-07-12 15:34:44.442 +05:30 [INF] Executed action API.Controllers.ProductsController.Create (API) in 753.7539ms
+2026-07-12 15:34:44.444 +05:30 [INF] Executed endpoint 'API.Controllers.ProductsController.Create (API)'
+2026-07-12 15:34:44.446 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7190/api/Products - 201 null application/json; charset=utf-8 1091.5076ms
+2026-07-12 17:00:51.228 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7190/api/Products/1 - null null
+2026-07-12 17:00:51.365 +05:30 [INF] Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '12-07-2026 10:58:41', Current time (UTC): '12-07-2026 11:30:51'.
+   at Microsoft.IdentityModel.Tokens.Validators.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateTokenPayloadAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateJWSAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+2026-07-12 17:00:51.409 +05:30 [INF] Bearer was not authenticated. Failure message: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '12-07-2026 10:58:41', Current time (UTC): '12-07-2026 11:30:51'.
+2026-07-12 17:00:51.423 +05:30 [INF] Executing endpoint 'API.Controllers.ProductsController.GetById (API)'
+2026-07-12 17:00:51.525 +05:30 [INF] Route matched with {action = "GetById", controller = "Products"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetById(Int32) on controller API.Controllers.ProductsController (API).
+2026-07-12 17:00:51.639 +05:30 [INF] Fetching product with Id 1
+2026-07-12 17:00:52.803 +05:30 [INF] Executed DbCommand (95ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [p].[Id], [p].[CreatedBy], [p].[CreatedOn], [p].[ModifiedBy], [p].[ModifiedOn], [p].[ProductName]
+FROM [Products] AS [p]
+WHERE [p].[Id] = @__p_0
+2026-07-12 17:00:52.835 +05:30 [INF] Executing OkObjectResult, writing value of type 'Application.DTOs.ProductDto'.
+2026-07-12 17:00:52.850 +05:30 [INF] Executed action API.Controllers.ProductsController.GetById (API) in 1317.6719ms
+2026-07-12 17:00:52.854 +05:30 [INF] Executed endpoint 'API.Controllers.ProductsController.GetById (API)'
+2026-07-12 17:00:52.858 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7190/api/Products/1 - 200 null application/json; charset=utf-8 1634.1377ms
+2026-07-12 17:24:31.513 +05:30 [INF] Request starting HTTP/2 PUT https://localhost:7190/api/Products/1 - application/json 34
+2026-07-12 17:24:31.615 +05:30 [INF] Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '12-07-2026 10:58:41', Current time (UTC): '12-07-2026 11:54:31'.
+   at Microsoft.IdentityModel.Tokens.Validators.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateTokenPayloadAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateJWSAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+2026-07-12 17:24:31.643 +05:30 [INF] Bearer was not authenticated. Failure message: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '12-07-2026 10:58:41', Current time (UTC): '12-07-2026 11:54:31'.
+2026-07-12 17:24:31.673 +05:30 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2026-07-12 17:24:31.707 +05:30 [INF] AuthenticationScheme: Bearer was challenged.
+2026-07-12 17:24:31.712 +05:30 [INF] Request finished HTTP/2 PUT https://localhost:7190/api/Products/1 - 401 0 null 203.5492ms
+2026-07-12 17:28:54.871 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7190/api/Auth/login - application/json 51
+2026-07-12 17:28:54.962 +05:30 [INF] Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '12-07-2026 10:58:41', Current time (UTC): '12-07-2026 11:58:54'.
+   at Microsoft.IdentityModel.Tokens.Validators.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateTokenPayloadAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateJWSAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+2026-07-12 17:28:54.985 +05:30 [INF] Bearer was not authenticated. Failure message: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '12-07-2026 10:58:41', Current time (UTC): '12-07-2026 11:58:54'.
+2026-07-12 17:28:54.993 +05:30 [INF] Executing endpoint 'API.Controllers.AuthController.Login (API)'
+2026-07-12 17:28:55.014 +05:30 [INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login(Application.DTOs.LoginDto) on controller API.Controllers.AuthController (API).
+2026-07-12 17:28:55.093 +05:30 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`3[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2026-07-12 17:28:55.103 +05:30 [INF] Executed action API.Controllers.AuthController.Login (API) in 84.9492ms
+2026-07-12 17:28:55.107 +05:30 [INF] Executed endpoint 'API.Controllers.AuthController.Login (API)'
+2026-07-12 17:28:55.109 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7190/api/Auth/login - 200 null application/json; charset=utf-8 242.1746ms
+2026-07-12 17:29:40.652 +05:30 [INF] Request starting HTTP/2 PUT https://localhost:7190/api/Products/1 - application/json 34
+2026-07-12 17:29:40.792 +05:30 [INF] Executing endpoint 'API.Controllers.ProductsController.Update (API)'
+2026-07-12 17:29:40.899 +05:30 [INF] Route matched with {action = "Update", controller = "Products"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Update(Int32, Application.DTOs.UpdateProductDto) on controller API.Controllers.ProductsController (API).
+2026-07-12 17:29:41.062 +05:30 [INF] Updating product Id=1
+2026-07-12 17:29:41.651 +05:30 [INF] Executed DbCommand (74ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [p].[Id], [p].[CreatedBy], [p].[CreatedOn], [p].[ModifiedBy], [p].[ModifiedOn], [p].[ProductName]
+FROM [Products] AS [p]
+WHERE [p].[Id] = @__p_0
+2026-07-12 17:29:41.762 +05:30 [INF] Executed DbCommand (33ms) [Parameters=[@p5='?' (DbType = Int32), @p0='?' (Size = 4000), @p1='?' (DbType = DateTime2), @p2='?' (Size = 4000), @p3='?' (DbType = DateTime2), @p4='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+UPDATE [Products] SET [CreatedBy] = @p0, [CreatedOn] = @p1, [ModifiedBy] = @p2, [ModifiedOn] = @p3, [ProductName] = @p4
+OUTPUT 1
+WHERE [Id] = @p5;
+2026-07-12 17:29:41.784 +05:30 [INF] Product updated successfully.
+2026-07-12 17:29:41.800 +05:30 [INF] Executing StatusCodeResult, setting HTTP status code 204
+2026-07-12 17:29:41.803 +05:30 [INF] Executed action API.Controllers.ProductsController.Update (API) in 895.6566ms
+2026-07-12 17:29:41.810 +05:30 [INF] Executed endpoint 'API.Controllers.ProductsController.Update (API)'
+2026-07-12 17:29:41.817 +05:30 [INF] Request finished HTTP/2 PUT https://localhost:7190/api/Products/1 - 204 null null 1172.5393ms
+2026-07-12 17:30:27.333 +05:30 [INF] Request starting HTTP/2 DELETE https://localhost:7190/api/Products/1 - null null
+2026-07-12 17:30:27.461 +05:30 [INF] Executing endpoint 'API.Controllers.ProductsController.Delete (API)'
+2026-07-12 17:30:27.566 +05:30 [INF] Route matched with {action = "Delete", controller = "Products"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Delete(Int32) on controller API.Controllers.ProductsController (API).
+2026-07-12 17:30:27.625 +05:30 [INF] Deleting product Id=1
+2026-07-12 17:30:27.898 +05:30 [INF] Executed DbCommand (162ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [p].[Id], [p].[CreatedBy], [p].[CreatedOn], [p].[ModifiedBy], [p].[ModifiedOn], [p].[ProductName]
+FROM [Products] AS [p]
+WHERE [p].[Id] = @__p_0
+2026-07-12 17:30:28.056 +05:30 [INF] Executed DbCommand (52ms) [Parameters=[@p0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+DELETE FROM [Products]
+OUTPUT 1
+WHERE [Id] = @p0;
+2026-07-12 17:30:28.083 +05:30 [INF] Product deleted successfully.
+2026-07-12 17:30:28.088 +05:30 [INF] Executing StatusCodeResult, setting HTTP status code 204
+2026-07-12 17:30:28.094 +05:30 [INF] Executed action API.Controllers.ProductsController.Delete (API) in 521.8069ms
+2026-07-12 17:30:28.099 +05:30 [INF] Executed endpoint 'API.Controllers.ProductsController.Delete (API)'
+2026-07-12 17:30:28.108 +05:30 [INF] Request finished HTTP/2 DELETE https://localhost:7190/api/Products/1 - 204 null null 783.0655ms
+2026-07-12 17:31:31.085 +05:30 [INF] Request starting HTTP/2 DELETE https://localhost:7190/api/Products/1 - null null
+2026-07-12 17:31:31.177 +05:30 [INF] Executing endpoint 'API.Controllers.ProductsController.Delete (API)'
+2026-07-12 17:31:31.192 +05:30 [INF] Route matched with {action = "Delete", controller = "Products"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Delete(Int32) on controller API.Controllers.ProductsController (API).
+2026-07-12 17:31:31.256 +05:30 [INF] Deleting product Id=1
+2026-07-12 17:31:31.354 +05:30 [INF] Executed DbCommand (13ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [p].[Id], [p].[CreatedBy], [p].[CreatedOn], [p].[ModifiedBy], [p].[ModifiedOn], [p].[ProductName]
+FROM [Products] AS [p]
+WHERE [p].[Id] = @__p_0
+2026-07-12 17:31:31.368 +05:30 [WRN] Product Id=1 not found.
+2026-07-12 17:31:31.400 +05:30 [INF] Executing ObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ProblemDetails'.
+2026-07-12 17:31:31.605 +05:30 [INF] Executed action API.Controllers.ProductsController.Delete (API) in 410.4725ms
+2026-07-12 17:31:31.613 +05:30 [INF] Executed endpoint 'API.Controllers.ProductsController.Delete (API)'
+2026-07-12 17:31:31.621 +05:30 [INF] Request finished HTTP/2 DELETE https://localhost:7190/api/Products/1 - 404 null application/problem+json; charset=utf-8 542.1329ms
+2026-07-12 17:33:46.173 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7190/api/Products - null null
+2026-07-12 17:33:46.279 +05:30 [INF] Executing endpoint 'API.Controllers.ProductsController.GetAll (API)'
+2026-07-12 17:33:46.296 +05:30 [INF] Route matched with {action = "GetAll", controller = "Products"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAll() on controller API.Controllers.ProductsController (API).
+2026-07-12 17:33:46.330 +05:30 [INF] Fetching all products.
+2026-07-12 17:33:46.538 +05:30 [INF] Executed DbCommand (144ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[CreatedBy], [p].[CreatedOn], [p].[ModifiedBy], [p].[ModifiedOn], [p].[ProductName]
+FROM [Products] AS [p]
+2026-07-12 17:33:46.573 +05:30 [INF] Returned 1 products.
+2026-07-12 17:33:46.583 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Application.DTOs.ProductDto, Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-07-12 17:33:46.599 +05:30 [INF] Executed action API.Controllers.ProductsController.GetAll (API) in 295.0777ms
+2026-07-12 17:33:46.604 +05:30 [INF] Executed endpoint 'API.Controllers.ProductsController.GetAll (API)'
+2026-07-12 17:33:46.610 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7190/api/Products - 200 null application/json; charset=utf-8 441.9217ms
+2026-07-12 17:34:01.565 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7190/api/Products/2 - null null
+2026-07-12 17:34:01.589 +05:30 [INF] Executing endpoint 'API.Controllers.ProductsController.GetById (API)'
+2026-07-12 17:34:01.593 +05:30 [INF] Route matched with {action = "GetById", controller = "Products"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetById(Int32) on controller API.Controllers.ProductsController (API).
+2026-07-12 17:34:01.620 +05:30 [INF] Fetching product with Id 2
+2026-07-12 17:34:01.704 +05:30 [INF] Executed DbCommand (40ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [p].[Id], [p].[CreatedBy], [p].[CreatedOn], [p].[ModifiedBy], [p].[ModifiedOn], [p].[ProductName]
+FROM [Products] AS [p]
+WHERE [p].[Id] = @__p_0
+2026-07-12 17:34:01.723 +05:30 [INF] Executing OkObjectResult, writing value of type 'Application.DTOs.ProductDto'.
+2026-07-12 17:34:01.727 +05:30 [INF] Executed action API.Controllers.ProductsController.GetById (API) in 129.3212ms
+2026-07-12 17:34:01.730 +05:30 [INF] Executed endpoint 'API.Controllers.ProductsController.GetById (API)'
+2026-07-12 17:34:01.732 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7190/api/Products/2 - 200 null application/json; charset=utf-8 166.8883ms
+2026-07-12 17:34:14.276 +05:30 [INF] Request starting HTTP/2 DELETE https://localhost:7190/api/Products/2 - null null
+2026-07-12 17:34:14.295 +05:30 [INF] Executing endpoint 'API.Controllers.ProductsController.Delete (API)'
+2026-07-12 17:34:14.299 +05:30 [INF] Route matched with {action = "Delete", controller = "Products"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Delete(Int32) on controller API.Controllers.ProductsController (API).
+2026-07-12 17:34:14.310 +05:30 [INF] Deleting product Id=2
+2026-07-12 17:34:14.338 +05:30 [INF] Executed DbCommand (17ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [p].[Id], [p].[CreatedBy], [p].[CreatedOn], [p].[ModifiedBy], [p].[ModifiedOn], [p].[ProductName]
+FROM [Products] AS [p]
+WHERE [p].[Id] = @__p_0
+2026-07-12 17:34:14.420 +05:30 [INF] Executed DbCommand (43ms) [Parameters=[@p0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+DELETE FROM [Products]
+OUTPUT 1
+WHERE [Id] = @p0;
+2026-07-12 17:34:14.429 +05:30 [INF] Product deleted successfully.
+2026-07-12 17:34:14.434 +05:30 [INF] Executing StatusCodeResult, setting HTTP status code 204
+2026-07-12 17:34:14.439 +05:30 [INF] Executed action API.Controllers.ProductsController.Delete (API) in 134.7425ms
+2026-07-12 17:34:14.442 +05:30 [INF] Executed endpoint 'API.Controllers.ProductsController.Delete (API)'
+2026-07-12 17:34:14.447 +05:30 [INF] Request finished HTTP/2 DELETE https://localhost:7190/api/Products/2 - 204 null null 170.6958ms

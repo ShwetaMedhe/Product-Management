@@ -1,0 +1,84 @@
+2026-07-12 23:04:51.981 +05:30 [INF] User profile is available. Using 'C:\Users\HP\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-07-12 23:04:52.566 +05:30 [WRN] The ASP.NET Core developer certificate is not trusted. For information about trusting the ASP.NET Core developer certificate, see https://aka.ms/aspnet/https-trust-dev-cert.
+2026-07-12 23:04:52.663 +05:30 [INF] Now listening on: https://localhost:7190
+2026-07-12 23:04:52.666 +05:30 [INF] Now listening on: http://localhost:5143
+2026-07-12 23:04:52.893 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2026-07-12 23:04:52.896 +05:30 [INF] Hosting environment: Development
+2026-07-12 23:04:52.898 +05:30 [INF] Content root path: C:\Users\HP\Desktop\Dot Net\ProductApi\API
+2026-07-12 23:04:54.153 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7190/swagger - null null
+2026-07-12 23:04:54.674 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7190/swagger - 301 0 null 523.086ms
+2026-07-12 23:04:54.701 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7190/swagger/index.html - null null
+2026-07-12 23:04:54.895 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7190/swagger/index.html - 200 null text/html;charset=utf-8 194.2937ms
+2026-07-12 23:04:54.968 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7190/swagger/swagger-ui.css - null null
+2026-07-12 23:04:54.977 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7190/_vs/browserLink - null null
+2026-07-12 23:04:54.977 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7190/_framework/aspnetcore-browser-refresh.js - null null
+2026-07-12 23:04:54.977 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7190/swagger/swagger-ui-standalone-preset.js - null null
+2026-07-12 23:04:54.975 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7190/swagger/swagger-ui-bundle.js - null null
+2026-07-12 23:04:54.993 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7190/_framework/aspnetcore-browser-refresh.js - 200 16491 application/javascript; charset=utf-8 16.2268ms
+2026-07-12 23:04:54.998 +05:30 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2026-07-12 23:04:55.000 +05:30 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2026-07-12 23:04:55.017 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7190/swagger/swagger-ui.css - 200 152034 text/css 49.6761ms
+2026-07-12 23:04:55.019 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7190/swagger/swagger-ui-standalone-preset.js - 200 230280 text/javascript 41.8426ms
+2026-07-12 23:04:55.025 +05:30 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2026-07-12 23:04:55.036 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7190/swagger/swagger-ui-bundle.js - 200 1456926 text/javascript 60.1674ms
+2026-07-12 23:04:55.035 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7190/_vs/browserLink - 200 null text/javascript; charset=UTF-8 57.7348ms
+2026-07-12 23:04:55.335 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7190/swagger/v1/swagger.json - null null
+2026-07-12 23:04:55.368 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7190/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 33.3304ms
+2026-07-12 23:05:57.361 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7190/api/Auth/login - application/json 51
+2026-07-12 23:05:57.789 +05:30 [INF] Executing endpoint 'API.Controllers.AuthController.Login (API)'
+2026-07-12 23:05:57.925 +05:30 [INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login(Application.DTOs.LoginDto) on controller API.Controllers.AuthController (API).
+2026-07-12 23:05:58.143 +05:30 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`3[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2026-07-12 23:05:58.174 +05:30 [INF] Executed action API.Controllers.AuthController.Login (API) in 235.1813ms
+2026-07-12 23:05:58.179 +05:30 [INF] Executed endpoint 'API.Controllers.AuthController.Login (API)'
+2026-07-12 23:05:58.184 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7190/api/Auth/login - 200 null application/json; charset=utf-8 827.0309ms
+2026-07-12 23:06:29.933 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7190/api/v1/Products - null null
+2026-07-12 23:06:30.042 +05:30 [INF] Executing endpoint 'API.Controllers.ProductsController.GetAll (API)'
+2026-07-12 23:06:30.062 +05:30 [INF] Route matched with {action = "GetAll", controller = "Products"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAll() on controller API.Controllers.ProductsController (API).
+2026-07-12 23:06:32.790 +05:30 [INF] Executed DbCommand (114ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[CreatedBy], [p].[CreatedOn], [p].[ModifiedBy], [p].[ModifiedOn], [p].[ProductName]
+FROM [Products] AS [p]
+2026-07-12 23:06:32.889 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Application.DTOs.ProductDto, Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-07-12 23:06:32.908 +05:30 [INF] Executed action API.Controllers.ProductsController.GetAll (API) in 2837.986ms
+2026-07-12 23:06:32.914 +05:30 [INF] Executed endpoint 'API.Controllers.ProductsController.GetAll (API)'
+2026-07-12 23:06:32.934 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7190/api/v1/Products - 200 null application/json; charset=utf-8 3000.7899ms
+2026-07-12 23:06:58.801 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7190/api/v1/Products - application/json 27
+2026-07-12 23:06:58.885 +05:30 [INF] Executing endpoint 'API.Controllers.ProductsController.Create (API)'
+2026-07-12 23:06:58.921 +05:30 [INF] Route matched with {action = "Create", controller = "Products"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Create(Application.DTOs.CreateProductDto) on controller API.Controllers.ProductsController (API).
+2026-07-12 23:06:59.531 +05:30 [INF] Executed DbCommand (96ms) [Parameters=[@p0='?' (Size = 4000), @p1='?' (DbType = DateTime2), @p2='?' (Size = 4000), @p3='?' (DbType = DateTime2), @p4='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Products] ([CreatedBy], [CreatedOn], [ModifiedBy], [ModifiedOn], [ProductName])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1, @p2, @p3, @p4);
+2026-07-12 23:06:59.598 +05:30 [INF] Executing CreatedAtActionResult, writing value of type 'Application.DTOs.ProductDto'.
+2026-07-12 23:06:59.686 +05:30 [INF] Executed action API.Controllers.ProductsController.Create (API) in 759.01ms
+2026-07-12 23:06:59.691 +05:30 [INF] Executed endpoint 'API.Controllers.ProductsController.Create (API)'
+2026-07-12 23:06:59.696 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7190/api/v1/Products - 201 null application/json; charset=utf-8 898.1098ms
+2026-07-12 23:13:56.152 +05:30 [INF] User profile is available. Using 'C:\Users\HP\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-07-12 23:13:56.555 +05:30 [WRN] The ASP.NET Core developer certificate is not trusted. For information about trusting the ASP.NET Core developer certificate, see https://aka.ms/aspnet/https-trust-dev-cert.
+2026-07-12 23:13:56.636 +05:30 [INF] Now listening on: https://localhost:7190
+2026-07-12 23:13:56.639 +05:30 [INF] Now listening on: http://localhost:5143
+2026-07-12 23:13:56.951 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2026-07-12 23:13:56.953 +05:30 [INF] Hosting environment: Development
+2026-07-12 23:13:56.956 +05:30 [INF] Content root path: C:\Users\HP\Desktop\Dot Net\ProductApi\API
+2026-07-12 23:13:57.635 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7190/swagger/index.html - null null
+2026-07-12 23:14:03.544 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7190/swagger/index.html - 200 null text/html;charset=utf-8 5875.4738ms
+2026-07-12 23:14:03.703 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7190/swagger/swagger-ui.css - null null
+2026-07-12 23:14:03.728 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7190/_vs/browserLink - null null
+2026-07-12 23:14:03.729 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7190/_framework/aspnetcore-browser-refresh.js - null null
+2026-07-12 23:14:03.796 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7190/_framework/aspnetcore-browser-refresh.js - 200 16491 application/javascript; charset=utf-8 66.2823ms
+2026-07-12 23:14:03.829 +05:30 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2026-07-12 23:14:03.837 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7190/swagger/swagger-ui.css - 200 152034 text/css 133.8864ms
+2026-07-12 23:14:03.887 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7190/_vs/browserLink - 200 null text/javascript; charset=UTF-8 158.5871ms
+2026-07-12 23:14:04.373 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7190/swagger/v1/swagger.json - null null
+2026-07-12 23:14:04.410 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7190/swagger/favicon-32x32.png - null null
+2026-07-12 23:14:04.417 +05:30 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2026-07-12 23:14:04.422 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7190/swagger/favicon-32x32.png - 200 628 image/png 11.5553ms
+2026-07-12 23:14:04.454 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7190/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 80.8059ms
+2026-07-12 23:14:58.813 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7190/api/Auth/login - application/json 51
+2026-07-12 23:14:58.952 +05:30 [INF] Executing endpoint 'API.Controllers.AuthController.Login (API)'
+2026-07-12 23:14:59.056 +05:30 [INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login(Application.DTOs.LoginDto) on controller API.Controllers.AuthController (API).
+2026-07-12 23:14:59.252 +05:30 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`3[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2026-07-12 23:14:59.273 +05:30 [INF] Executed action API.Controllers.AuthController.Login (API) in 202.0316ms
+2026-07-12 23:14:59.277 +05:30 [INF] Executed endpoint 'API.Controllers.AuthController.Login (API)'
+2026-07-12 23:14:59.281 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7190/api/Auth/login - 200 null application/json; charset=utf-8 469.2958ms

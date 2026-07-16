@@ -1,0 +1,259 @@
+2026-07-12 22:42:54.426 +05:30 [INF] User profile is available. Using 'C:\Users\HP\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-07-12 22:42:55.077 +05:30 [WRN] The ASP.NET Core developer certificate is not trusted. For information about trusting the ASP.NET Core developer certificate, see https://aka.ms/aspnet/https-trust-dev-cert.
+2026-07-12 22:42:55.162 +05:30 [INF] Now listening on: https://localhost:7190
+2026-07-12 22:42:55.167 +05:30 [INF] Now listening on: http://localhost:5143
+2026-07-12 22:42:55.327 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2026-07-12 22:42:55.334 +05:30 [INF] Hosting environment: Development
+2026-07-12 22:42:55.339 +05:30 [INF] Content root path: C:\Users\HP\Desktop\Dot Net\ProductApi\API
+2026-07-12 22:42:58.687 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7190/swagger - null null
+2026-07-12 22:42:59.342 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7190/swagger - 301 0 null 660.9453ms
+2026-07-12 22:42:59.362 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7190/swagger/index.html - null null
+2026-07-12 22:42:59.545 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7190/swagger/index.html - 200 null text/html;charset=utf-8 183.0478ms
+2026-07-12 22:42:59.648 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7190/swagger/swagger-ui-bundle.js - null null
+2026-07-12 22:42:59.648 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7190/swagger/swagger-ui.css - null null
+2026-07-12 22:42:59.649 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7190/swagger/swagger-ui-standalone-preset.js - null null
+2026-07-12 22:42:59.649 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7190/_framework/aspnetcore-browser-refresh.js - null null
+2026-07-12 22:42:59.712 +05:30 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2026-07-12 22:42:59.729 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7190/_framework/aspnetcore-browser-refresh.js - 200 16491 application/javascript; charset=utf-8 80.2099ms
+2026-07-12 22:42:59.712 +05:30 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2026-07-12 22:42:59.740 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7190/swagger/swagger-ui-standalone-preset.js - 200 230280 text/javascript 91.6599ms
+2026-07-12 22:42:59.744 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7190/_vs/browserLink - null null
+2026-07-12 22:42:59.747 +05:30 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2026-07-12 22:42:59.807 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7190/swagger/swagger-ui.css - 200 152034 text/css 159.3952ms
+2026-07-12 22:42:59.823 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7190/swagger/swagger-ui-bundle.js - 200 1456926 text/javascript 174.7918ms
+2026-07-12 22:43:00.085 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7190/_vs/browserLink - 200 null text/javascript; charset=UTF-8 340.044ms
+2026-07-12 22:43:00.377 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7190/swagger/v1/swagger.json - null null
+2026-07-12 22:43:00.619 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7190/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 241.8127ms
+2026-07-12 22:43:34.229 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7190/api/Auth/login - application/json 51
+2026-07-12 22:43:34.653 +05:30 [INF] Executing endpoint 'API.Controllers.AuthController.Login (API)'
+2026-07-12 22:43:34.836 +05:30 [INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login(Application.DTOs.LoginDto) on controller API.Controllers.AuthController (API).
+2026-07-12 22:43:35.074 +05:30 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`3[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2026-07-12 22:43:35.105 +05:30 [INF] Executed action API.Controllers.AuthController.Login (API) in 252.4931ms
+2026-07-12 22:43:35.111 +05:30 [INF] Executed endpoint 'API.Controllers.AuthController.Login (API)'
+2026-07-12 22:43:35.116 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7190/api/Auth/login - 200 null application/json; charset=utf-8 905.104ms
+2026-07-12 22:44:13.686 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7190/api/Products - null null
+2026-07-12 22:44:14.005 +05:30 [INF] Executing endpoint 'API.Controllers.ProductsController.GetAll (API)'
+2026-07-12 22:44:14.072 +05:30 [INF] Route matched with {action = "GetAll", controller = "Products"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAll() on controller API.Controllers.ProductsController (API).
+2026-07-12 22:44:14.636 +05:30 [INF] Fetching all products.
+2026-07-12 22:44:17.343 +05:30 [INF] Executed DbCommand (136ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[CreatedBy], [p].[CreatedOn], [p].[ModifiedBy], [p].[ModifiedOn], [p].[ProductName]
+FROM [Products] AS [p]
+2026-07-12 22:44:17.420 +05:30 [INF] Returned 0 products.
+2026-07-12 22:44:17.431 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Application.DTOs.ProductDto, Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-07-12 22:44:17.465 +05:30 [INF] Executed action API.Controllers.ProductsController.GetAll (API) in 3385.8055ms
+2026-07-12 22:44:17.470 +05:30 [INF] Executed endpoint 'API.Controllers.ProductsController.GetAll (API)'
+2026-07-12 22:44:17.487 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7190/api/Products - 200 null application/json; charset=utf-8 3806.1519ms
+2026-07-12 22:44:41.476 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7190/api/Products - application/json 26
+2026-07-12 22:44:41.679 +05:30 [INF] Executing endpoint 'API.Controllers.ProductsController.Create (API)'
+2026-07-12 22:44:41.732 +05:30 [INF] Route matched with {action = "Create", controller = "Products"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Create(Application.DTOs.CreateProductDto) on controller API.Controllers.ProductsController (API).
+2026-07-12 22:44:41.883 +05:30 [INF] Creating new product.
+2026-07-12 22:44:42.663 +05:30 [INF] Executed DbCommand (236ms) [Parameters=[@p0='?' (Size = 4000), @p1='?' (DbType = DateTime2), @p2='?' (Size = 4000), @p3='?' (DbType = DateTime2), @p4='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Products] ([CreatedBy], [CreatedOn], [ModifiedBy], [ModifiedOn], [ProductName])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1, @p2, @p3, @p4);
+2026-07-12 22:44:42.737 +05:30 [INF] Product created successfully. Id=3
+2026-07-12 22:44:42.745 +05:30 [INF] Executing CreatedAtActionResult, writing value of type 'Application.DTOs.ProductDto'.
+2026-07-12 22:44:42.847 +05:30 [INF] Executed action API.Controllers.ProductsController.Create (API) in 1109.6794ms
+2026-07-12 22:44:42.851 +05:30 [INF] Executed endpoint 'API.Controllers.ProductsController.Create (API)'
+2026-07-12 22:44:42.856 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7190/api/Products - 201 null application/json; charset=utf-8 1387.4453ms
+2026-07-12 22:45:01.870 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7190/api/Products/1 - null null
+2026-07-12 22:45:01.882 +05:30 [INF] Executing endpoint 'API.Controllers.ProductsController.GetById (API)'
+2026-07-12 22:45:01.891 +05:30 [INF] Route matched with {action = "GetById", controller = "Products"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetById(Int32) on controller API.Controllers.ProductsController (API).
+2026-07-12 22:45:01.908 +05:30 [INF] Fetching product with Id 1
+2026-07-12 22:45:02.348 +05:30 [INF] Executed DbCommand (32ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [p].[Id], [p].[CreatedBy], [p].[CreatedOn], [p].[ModifiedBy], [p].[ModifiedOn], [p].[ProductName]
+FROM [Products] AS [p]
+WHERE [p].[Id] = @__p_0
+2026-07-12 22:45:02.357 +05:30 [WRN] Product with Id 1 not found.
+2026-07-12 22:45:02.365 +05:30 [INF] Executing ObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ProblemDetails'.
+2026-07-12 22:45:02.445 +05:30 [INF] Executed action API.Controllers.ProductsController.GetById (API) in 551.4604ms
+2026-07-12 22:45:02.450 +05:30 [INF] Executed endpoint 'API.Controllers.ProductsController.GetById (API)'
+2026-07-12 22:45:02.453 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7190/api/Products/1 - 404 null application/problem+json; charset=utf-8 583.0621ms
+2026-07-12 22:45:15.404 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7190/api/Products/2 - null null
+2026-07-12 22:45:15.435 +05:30 [INF] Executing endpoint 'API.Controllers.ProductsController.GetById (API)'
+2026-07-12 22:45:15.441 +05:30 [INF] Route matched with {action = "GetById", controller = "Products"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetById(Int32) on controller API.Controllers.ProductsController (API).
+2026-07-12 22:45:15.456 +05:30 [INF] Fetching product with Id 2
+2026-07-12 22:45:15.497 +05:30 [INF] Executed DbCommand (12ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [p].[Id], [p].[CreatedBy], [p].[CreatedOn], [p].[ModifiedBy], [p].[ModifiedOn], [p].[ProductName]
+FROM [Products] AS [p]
+WHERE [p].[Id] = @__p_0
+2026-07-12 22:45:15.508 +05:30 [WRN] Product with Id 2 not found.
+2026-07-12 22:45:15.513 +05:30 [INF] Executing ObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ProblemDetails'.
+2026-07-12 22:45:15.520 +05:30 [INF] Executed action API.Controllers.ProductsController.GetById (API) in 72.3407ms
+2026-07-12 22:45:15.523 +05:30 [INF] Executed endpoint 'API.Controllers.ProductsController.GetById (API)'
+2026-07-12 22:45:15.528 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7190/api/Products/2 - 404 null application/problem+json; charset=utf-8 127.1177ms
+2026-07-12 22:45:26.953 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7190/api/Products/3 - null null
+2026-07-12 22:45:26.969 +05:30 [INF] Executing endpoint 'API.Controllers.ProductsController.GetById (API)'
+2026-07-12 22:45:26.973 +05:30 [INF] Route matched with {action = "GetById", controller = "Products"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetById(Int32) on controller API.Controllers.ProductsController (API).
+2026-07-12 22:45:26.982 +05:30 [INF] Fetching product with Id 3
+2026-07-12 22:45:26.997 +05:30 [INF] Executed DbCommand (7ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [p].[Id], [p].[CreatedBy], [p].[CreatedOn], [p].[ModifiedBy], [p].[ModifiedOn], [p].[ProductName]
+FROM [Products] AS [p]
+WHERE [p].[Id] = @__p_0
+2026-07-12 22:45:27.040 +05:30 [INF] Executing OkObjectResult, writing value of type 'Application.DTOs.ProductDto'.
+2026-07-12 22:45:27.048 +05:30 [INF] Executed action API.Controllers.ProductsController.GetById (API) in 68.5262ms
+2026-07-12 22:45:27.052 +05:30 [INF] Executed endpoint 'API.Controllers.ProductsController.GetById (API)'
+2026-07-12 22:45:27.058 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7190/api/Products/3 - 200 null application/json; charset=utf-8 103.4517ms
+2026-07-12 22:45:56.727 +05:30 [INF] Request starting HTTP/2 PUT https://localhost:7190/api/Products/2 - application/json 29
+2026-07-12 22:45:56.747 +05:30 [INF] Executing endpoint 'API.Controllers.ProductsController.Update (API)'
+2026-07-12 22:45:56.780 +05:30 [INF] Route matched with {action = "Update", controller = "Products"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Update(Int32, Application.DTOs.UpdateProductDto) on controller API.Controllers.ProductsController (API).
+2026-07-12 22:45:56.825 +05:30 [INF] Updating product Id=2
+2026-07-12 22:45:56.845 +05:30 [INF] Executed DbCommand (7ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [p].[Id], [p].[CreatedBy], [p].[CreatedOn], [p].[ModifiedBy], [p].[ModifiedOn], [p].[ProductName]
+FROM [Products] AS [p]
+WHERE [p].[Id] = @__p_0
+2026-07-12 22:45:56.855 +05:30 [WRN] Product Id=2 not found.
+2026-07-12 22:45:56.860 +05:30 [INF] Executing ObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ProblemDetails'.
+2026-07-12 22:45:56.867 +05:30 [INF] Executed action API.Controllers.ProductsController.Update (API) in 79.1221ms
+2026-07-12 22:45:56.871 +05:30 [INF] Executed endpoint 'API.Controllers.ProductsController.Update (API)'
+2026-07-12 22:45:56.876 +05:30 [INF] Request finished HTTP/2 PUT https://localhost:7190/api/Products/2 - 404 null application/problem+json; charset=utf-8 149.184ms
+2026-07-12 22:46:10.389 +05:30 [INF] Request starting HTTP/2 PUT https://localhost:7190/api/Products/3 - application/json 29
+2026-07-12 22:46:10.397 +05:30 [INF] Executing endpoint 'API.Controllers.ProductsController.Update (API)'
+2026-07-12 22:46:10.402 +05:30 [INF] Route matched with {action = "Update", controller = "Products"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Update(Int32, Application.DTOs.UpdateProductDto) on controller API.Controllers.ProductsController (API).
+2026-07-12 22:46:10.416 +05:30 [INF] Updating product Id=3
+2026-07-12 22:46:10.430 +05:30 [INF] Executed DbCommand (6ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [p].[Id], [p].[CreatedBy], [p].[CreatedOn], [p].[ModifiedBy], [p].[ModifiedOn], [p].[ProductName]
+FROM [Products] AS [p]
+WHERE [p].[Id] = @__p_0
+2026-07-12 22:46:10.542 +05:30 [INF] Executed DbCommand (57ms) [Parameters=[@p5='?' (DbType = Int32), @p0='?' (Size = 4000), @p1='?' (DbType = DateTime2), @p2='?' (Size = 4000), @p3='?' (DbType = DateTime2), @p4='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+UPDATE [Products] SET [CreatedBy] = @p0, [CreatedOn] = @p1, [ModifiedBy] = @p2, [ModifiedOn] = @p3, [ProductName] = @p4
+OUTPUT 1
+WHERE [Id] = @p5;
+2026-07-12 22:46:10.567 +05:30 [INF] Product updated successfully.
+2026-07-12 22:46:10.579 +05:30 [INF] Executing StatusCodeResult, setting HTTP status code 204
+2026-07-12 22:46:10.584 +05:30 [INF] Executed action API.Controllers.ProductsController.Update (API) in 173.747ms
+2026-07-12 22:46:10.588 +05:30 [INF] Executed endpoint 'API.Controllers.ProductsController.Update (API)'
+2026-07-12 22:46:10.591 +05:30 [INF] Request finished HTTP/2 PUT https://localhost:7190/api/Products/3 - 204 null null 202.6894ms
+2026-07-12 22:46:37.857 +05:30 [INF] Request starting HTTP/2 DELETE https://localhost:7190/api/Products/3 - null null
+2026-07-12 22:46:37.870 +05:30 [INF] Executing endpoint 'API.Controllers.ProductsController.Delete (API)'
+2026-07-12 22:46:37.888 +05:30 [INF] Route matched with {action = "Delete", controller = "Products"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Delete(Int32) on controller API.Controllers.ProductsController (API).
+2026-07-12 22:46:37.899 +05:30 [INF] Deleting product Id=3
+2026-07-12 22:46:37.914 +05:30 [INF] Executed DbCommand (8ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [p].[Id], [p].[CreatedBy], [p].[CreatedOn], [p].[ModifiedBy], [p].[ModifiedOn], [p].[ProductName]
+FROM [Products] AS [p]
+WHERE [p].[Id] = @__p_0
+2026-07-12 22:46:38.004 +05:30 [INF] Executed DbCommand (47ms) [Parameters=[@p0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+DELETE FROM [Products]
+OUTPUT 1
+WHERE [Id] = @p0;
+2026-07-12 22:46:38.021 +05:30 [INF] Product deleted successfully.
+2026-07-12 22:46:38.025 +05:30 [INF] Executing StatusCodeResult, setting HTTP status code 204
+2026-07-12 22:46:38.028 +05:30 [INF] Executed action API.Controllers.ProductsController.Delete (API) in 133.6822ms
+2026-07-12 22:46:38.033 +05:30 [INF] Executed endpoint 'API.Controllers.ProductsController.Delete (API)'
+2026-07-12 22:46:38.038 +05:30 [INF] Request finished HTTP/2 DELETE https://localhost:7190/api/Products/3 - 204 null null 180.5324ms
+2026-07-12 22:47:00.461 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7190/api/Products - application/json 26
+2026-07-12 22:47:00.472 +05:30 [INF] Executing endpoint 'API.Controllers.ProductsController.Create (API)'
+2026-07-12 22:47:00.485 +05:30 [INF] Route matched with {action = "Create", controller = "Products"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Create(Application.DTOs.CreateProductDto) on controller API.Controllers.ProductsController (API).
+2026-07-12 22:47:00.500 +05:30 [INF] Creating new product.
+2026-07-12 22:47:00.525 +05:30 [INF] Executed DbCommand (10ms) [Parameters=[@p0='?' (Size = 4000), @p1='?' (DbType = DateTime2), @p2='?' (Size = 4000), @p3='?' (DbType = DateTime2), @p4='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Products] ([CreatedBy], [CreatedOn], [ModifiedBy], [ModifiedOn], [ProductName])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1, @p2, @p3, @p4);
+2026-07-12 22:47:00.537 +05:30 [INF] Product created successfully. Id=4
+2026-07-12 22:47:00.542 +05:30 [INF] Executing CreatedAtActionResult, writing value of type 'Application.DTOs.ProductDto'.
+2026-07-12 22:47:00.564 +05:30 [INF] Executed action API.Controllers.ProductsController.Create (API) in 74.2488ms
+2026-07-12 22:47:00.567 +05:30 [INF] Executed endpoint 'API.Controllers.ProductsController.Create (API)'
+2026-07-12 22:47:00.571 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7190/api/Products - 201 null application/json; charset=utf-8 110.1682ms
+2026-07-12 22:47:05.749 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7190/api/Products/3 - null null
+2026-07-12 22:47:05.758 +05:30 [INF] Executing endpoint 'API.Controllers.ProductsController.GetById (API)'
+2026-07-12 22:47:05.762 +05:30 [INF] Route matched with {action = "GetById", controller = "Products"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetById(Int32) on controller API.Controllers.ProductsController (API).
+2026-07-12 22:47:05.771 +05:30 [INF] Fetching product with Id 3
+2026-07-12 22:47:05.782 +05:30 [INF] Executed DbCommand (4ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [p].[Id], [p].[CreatedBy], [p].[CreatedOn], [p].[ModifiedBy], [p].[ModifiedOn], [p].[ProductName]
+FROM [Products] AS [p]
+WHERE [p].[Id] = @__p_0
+2026-07-12 22:47:05.790 +05:30 [WRN] Product with Id 3 not found.
+2026-07-12 22:47:05.796 +05:30 [INF] Executing ObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ProblemDetails'.
+2026-07-12 22:47:05.802 +05:30 [INF] Executed action API.Controllers.ProductsController.GetById (API) in 34.0978ms
+2026-07-12 22:47:05.806 +05:30 [INF] Executed endpoint 'API.Controllers.ProductsController.GetById (API)'
+2026-07-12 22:47:05.811 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7190/api/Products/3 - 404 null application/problem+json; charset=utf-8 61.9752ms
+2026-07-12 22:47:18.847 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7190/api/Products/4 - null null
+2026-07-12 22:47:18.854 +05:30 [INF] Executing endpoint 'API.Controllers.ProductsController.GetById (API)'
+2026-07-12 22:47:18.857 +05:30 [INF] Route matched with {action = "GetById", controller = "Products"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetById(Int32) on controller API.Controllers.ProductsController (API).
+2026-07-12 22:47:18.867 +05:30 [INF] Fetching product with Id 4
+2026-07-12 22:47:18.880 +05:30 [INF] Executed DbCommand (8ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [p].[Id], [p].[CreatedBy], [p].[CreatedOn], [p].[ModifiedBy], [p].[ModifiedOn], [p].[ProductName]
+FROM [Products] AS [p]
+WHERE [p].[Id] = @__p_0
+2026-07-12 22:47:18.889 +05:30 [INF] Executing OkObjectResult, writing value of type 'Application.DTOs.ProductDto'.
+2026-07-12 22:47:18.895 +05:30 [INF] Executed action API.Controllers.ProductsController.GetById (API) in 31.4144ms
+2026-07-12 22:47:18.899 +05:30 [INF] Executed endpoint 'API.Controllers.ProductsController.GetById (API)'
+2026-07-12 22:47:18.903 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7190/api/Products/4 - 200 null application/json; charset=utf-8 56.4906ms
+2026-07-12 23:02:54.413 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7190/swagger/index.html - null null
+2026-07-12 23:02:54.675 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7190/swagger/index.html - 200 null text/html;charset=utf-8 264.1894ms
+2026-07-12 23:02:54.895 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7190/swagger/swagger-ui.css - null null
+2026-07-12 23:02:54.902 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7190/_vs/browserLink - null null
+2026-07-12 23:02:54.902 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7190/_framework/aspnetcore-browser-refresh.js - null null
+2026-07-12 23:02:54.920 +05:30 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2026-07-12 23:02:54.922 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7190/_framework/aspnetcore-browser-refresh.js - 200 16491 application/javascript; charset=utf-8 18.9951ms
+2026-07-12 23:02:54.927 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7190/swagger/swagger-ui.css - 200 152034 text/css 32.4476ms
+2026-07-12 23:02:54.937 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7190/_vs/browserLink - 200 null text/javascript; charset=UTF-8 35.3686ms
+2026-07-12 23:02:55.288 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7190/swagger/v1/swagger.json - null null
+2026-07-12 23:02:55.325 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7190/swagger/favicon-32x32.png - null null
+2026-07-12 23:02:55.342 +05:30 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2026-07-12 23:02:55.345 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7190/swagger/favicon-32x32.png - 200 628 image/png 20.1021ms
+2026-07-12 23:02:55.427 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7190/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 138.5148ms
+2026-07-12 23:04:51.981 +05:30 [INF] User profile is available. Using 'C:\Users\HP\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-07-12 23:04:52.566 +05:30 [WRN] The ASP.NET Core developer certificate is not trusted. For information about trusting the ASP.NET Core developer certificate, see https://aka.ms/aspnet/https-trust-dev-cert.
+2026-07-12 23:04:52.663 +05:30 [INF] Now listening on: https://localhost:7190
+2026-07-12 23:04:52.666 +05:30 [INF] Now listening on: http://localhost:5143
+2026-07-12 23:04:52.893 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2026-07-12 23:04:52.896 +05:30 [INF] Hosting environment: Development
+2026-07-12 23:04:52.898 +05:30 [INF] Content root path: C:\Users\HP\Desktop\Dot Net\ProductApi\API
+2026-07-12 23:04:54.153 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7190/swagger - null null
+2026-07-12 23:04:54.674 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7190/swagger - 301 0 null 523.086ms
+2026-07-12 23:04:54.701 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7190/swagger/index.html - null null
+2026-07-12 23:04:54.895 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7190/swagger/index.html - 200 null text/html;charset=utf-8 194.2937ms
+2026-07-12 23:04:54.968 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7190/swagger/swagger-ui.css - null null
+2026-07-12 23:04:54.975 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7190/swagger/swagger-ui-bundle.js - null null
+2026-07-12 23:04:54.977 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7190/_framework/aspnetcore-browser-refresh.js - null null
+2026-07-12 23:04:54.977 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7190/swagger/swagger-ui-standalone-preset.js - null null
+2026-07-12 23:04:54.977 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7190/_vs/browserLink - null null
+2026-07-12 23:04:54.993 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7190/_framework/aspnetcore-browser-refresh.js - 200 16491 application/javascript; charset=utf-8 16.2268ms
+2026-07-12 23:04:54.998 +05:30 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2026-07-12 23:04:55.000 +05:30 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2026-07-12 23:04:55.017 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7190/swagger/swagger-ui.css - 200 152034 text/css 49.6761ms
+2026-07-12 23:04:55.019 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7190/swagger/swagger-ui-standalone-preset.js - 200 230280 text/javascript 41.8426ms
+2026-07-12 23:04:55.025 +05:30 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2026-07-12 23:04:55.035 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7190/_vs/browserLink - 200 null text/javascript; charset=UTF-8 57.7348ms
+2026-07-12 23:04:55.036 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7190/swagger/swagger-ui-bundle.js - 200 1456926 text/javascript 60.1674ms
+2026-07-12 23:04:55.335 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7190/swagger/v1/swagger.json - null null
+2026-07-12 23:04:55.368 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7190/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 33.3304ms
+2026-07-12 23:05:57.361 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7190/api/Auth/login - application/json 51
+2026-07-12 23:05:57.789 +05:30 [INF] Executing endpoint 'API.Controllers.AuthController.Login (API)'
+2026-07-12 23:05:57.925 +05:30 [INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login(Application.DTOs.LoginDto) on controller API.Controllers.AuthController (API).
+2026-07-12 23:05:58.143 +05:30 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`3[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2026-07-12 23:05:58.174 +05:30 [INF] Executed action API.Controllers.AuthController.Login (API) in 235.1813ms
+2026-07-12 23:05:58.179 +05:30 [INF] Executed endpoint 'API.Controllers.AuthController.Login (API)'
+2026-07-12 23:05:58.184 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7190/api/Auth/login - 200 null application/json; charset=utf-8 827.0309ms
+2026-07-12 23:06:29.933 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7190/api/v1/Products - null null
+2026-07-12 23:06:30.042 +05:30 [INF] Executing endpoint 'API.Controllers.ProductsController.GetAll (API)'
+2026-07-12 23:06:30.062 +05:30 [INF] Route matched with {action = "GetAll", controller = "Products"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAll() on controller API.Controllers.ProductsController (API).
+2026-07-12 23:06:32.790 +05:30 [INF] Executed DbCommand (114ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[CreatedBy], [p].[CreatedOn], [p].[ModifiedBy], [p].[ModifiedOn], [p].[ProductName]
+FROM [Products] AS [p]
+2026-07-12 23:06:32.889 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Application.DTOs.ProductDto, Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-07-12 23:06:32.908 +05:30 [INF] Executed action API.Controllers.ProductsController.GetAll (API) in 2837.986ms
+2026-07-12 23:06:32.914 +05:30 [INF] Executed endpoint 'API.Controllers.ProductsController.GetAll (API)'
+2026-07-12 23:06:32.934 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7190/api/v1/Products - 200 null application/json; charset=utf-8 3000.7899ms
+2026-07-12 23:06:58.801 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7190/api/v1/Products - application/json 27
+2026-07-12 23:06:58.885 +05:30 [INF] Executing endpoint 'API.Controllers.ProductsController.Create (API)'
+2026-07-12 23:06:58.921 +05:30 [INF] Route matched with {action = "Create", controller = "Products"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Create(Application.DTOs.CreateProductDto) on controller API.Controllers.ProductsController (API).
+2026-07-12 23:06:59.531 +05:30 [INF] Executed DbCommand (96ms) [Parameters=[@p0='?' (Size = 4000), @p1='?' (DbType = DateTime2), @p2='?' (Size = 4000), @p3='?' (DbType = DateTime2), @p4='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Products] ([CreatedBy], [CreatedOn], [ModifiedBy], [ModifiedOn], [ProductName])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1, @p2, @p3, @p4);
+2026-07-12 23:06:59.598 +05:30 [INF] Executing CreatedAtActionResult, writing value of type 'Application.DTOs.ProductDto'.
+2026-07-12 23:06:59.686 +05:30 [INF] Executed action API.Controllers.ProductsController.Create (API) in 759.01ms
+2026-07-12 23:06:59.691 +05:30 [INF] Executed endpoint 'API.Controllers.ProductsController.Create (API)'
+2026-07-12 23:06:59.696 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7190/api/v1/Products - 201 null application/json; charset=utf-8 898.1098ms

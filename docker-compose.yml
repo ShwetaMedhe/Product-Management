@@ -1,0 +1,12 @@
+services:
+  api:
+    image: ${DOCKER_REGISTRY-}api
+    build:
+      context: .
+      dockerfile: API/Dockerfile
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+      ConnectionStrings__DefaultConnection: 'Server=host.docker.internal\SQLEXPRESS;Database=ProductDb;User Id=sa;Password=ProductApi@123;TrustServerCertificate=True;'
+    ports:
+      - "8080:8080"
+      - "8081:8081"
