@@ -53,7 +53,7 @@ ProductApi
 ### Clone Repository
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/ProductApi.git
+git clone https://github.com/ShwetaMedhe/ProductApi.git
 ```
 
 ### Open Project
